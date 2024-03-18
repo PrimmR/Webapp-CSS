@@ -57,17 +57,24 @@ input:focus {
     outline: 0;
 }
 
-button {
+.buttonify {
+    display: inline-block;
+}
+
+button,
+.buttonify {
     font-size: 16pt;
 }
 
-button:hover {
+button:hover,
+.buttonify:hover {
     background-color: var(--box-border);
     color: var(--box-background);
 }
 
 input,
 button,
+input::file-selector-button,
 .bordered {
     background-color: var(--box-background);
     border-radius: 10px;
