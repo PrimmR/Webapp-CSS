@@ -10,7 +10,22 @@
     --box-border: #e6e6e6;
     --text: #fff;
     --greyed-text: #888;
-    --accent: #daf;
+
+    --red: #faa;
+    --orange: #fda;
+    --yellow: #ffa;
+    --lime: #dfa;
+    --green: #afa;
+    --teal: #afd;
+    --sky: #aff;
+    --blue: #adf;
+    --indigo: #aaf;
+    --magenta: #daf;
+    --rose: #faf;
+    --pink: #fad;
+
+    /* Default accent if not specified */
+    --accent: var(--red);
 }
 
 
