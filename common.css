@@ -7,8 +7,8 @@
     /* Colours */
     --background: #000;
     --box-background: #111;
-    --box-border: #e6e6e6;
-    --text: #fff;
+    --box-border: #eee;
+    --text: #e8e8e8;
     --greyed-text: #888;
 
     --red: #faa;
@@ -37,7 +37,7 @@ body {
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
-    width: 50%;
+    width: 500px;
     text-align: center;
 
     color: var(--text);
@@ -48,8 +48,8 @@ body>* {
 }
 
 input {
-    width: 80%;
-    font-size: 20pt;
+    font-size: 16pt;
+    width: 400px;
 }
 
 input:focus {
@@ -67,7 +67,8 @@ button:hover {
 }
 
 input,
-button {
+button,
+.bordered {
     background-color: var(--box-background);
     border-radius: 10px;
     border-color: var(--box-border);
@@ -95,6 +96,7 @@ h1 {
 
 h2 {
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 small {
