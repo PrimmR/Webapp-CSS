@@ -5,12 +5,13 @@
 
 :root {
     /* Colours */
-    --background: #000;
-    --box-background: #111;
+    --background: #01030a;
+    --box-background: #0f1115;
     --box-border: #eee;
     --text: #e8e8e8;
     --greyed-text: #888;
 
+    /* Light Hues */
     --red: #faa;
     --orange: #fda;
     --yellow: #ffa;
@@ -23,6 +24,20 @@
     --magenta: #daf;
     --rose: #faf;
     --pink: #fad;
+
+    /* Shaded Hues */
+    --red-shade: #733;
+    --orange-shade: #753;
+    --yellow-shade: #773;
+    --lime-shade: #573;
+    --green-shade: #373;
+    --teal-shade: #375;
+    --sky-shade: #377;
+    --blue-shade: #357;
+    --indigo-shade: #337;
+    --magenta-shade: #537;
+    --rose-shade: #737;
+    --pink-shade: #735;
 
     /* Default accent if not specified */
     --accent: var(--red);
@@ -119,4 +134,16 @@ a {
 
 a:visited {
     color: var(--text);
+}
+
+.desc {
+    margin: 10px;
+}
+
+#source {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+    margin: 5px;
 }
